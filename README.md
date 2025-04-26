@@ -21,7 +21,24 @@ The original data can be found here: https://www.metmuseum.org/about-the-met/pol
 If you want more of a challenge, you are encouraged to pull your own art data from the url above but this is not required. All the data needed has already be sourced from the API and is stored in the data folder. This is done to do large processing times and pulling data from an API is not the focal point of this case study.
 
 ## How is the project structured?
-/ (Main Directory) │ ├── README.md # Project overview and documentation ├── Hook_Document.md # Project motivation and introduction ├── Rubric.pdf # Grading criteria and project guidelines │ ├── data/ # Dataset and related files │ ├── Data_Appendix.pdf # Appendix with dataset details │ └── MetMuseumData.csv # Raw data file from the Met Museum API │ ├── scripts/ # Code and notebooks for model development │ └── model_creation.ipynb # Jupyter notebook with model building steps │ ├── articles/ # Related readings and reference materials │ ├── AI_and_Art_Classification.md # Article on AI in art classification │ ├── Exploring_ResNet50.md # Overview of ResNet50 architecture │ └── What_are_Tensor_Images.md # Explanation of tensor images │ └── OUTPUT/ # Results and visualizations ├── Model_Accuracy_over_Epochs.png # Accuracy graph from model training └── Model_Loss_over_Epochs.png # Loss graph from model training
+- Main Directory
+  - README.md  # Project overview and documentation
+  - Hook_Document.md  # Project motivation and introduction
+  - Rubric.pdf  # Grading criteria and project guidelines
+  - data/
+    - Data_Appendix.pdf  # Appendix with dataset details if needed 
+    - MetMuseumData.csv  # Raw data file from the Met Museum API
+    - images #folder storing the images reference by the image_path field in MetMuseumData.csv
+  - scripts/
+    - model_creation.ipynb  # Jupyter notebook with model building steps
+  - articles/
+    - AI_and_Art_Classification.md  # Article on AI in art classification
+    - Exploring_ResNet50.md  # Overview of ResNet50 architecture
+    - What_are_Tensor_Images.md  # Explanation of tensor images
+  - OUTPUT/
+    - Model_Accuracy_over_Epochs.png  # Accuracy graph from model training
+    - Model_Loss_over_Epochs.png  # Loss graph from model training
+
 
 ## What libraries will I need installed to complete this case study?
 Considering installing:
