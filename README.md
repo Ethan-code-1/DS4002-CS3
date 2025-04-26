@@ -4,10 +4,17 @@
 1. Consult the Hook Document
 2. Consult the Rubric to understand case study goals and submission requirements
 3. Review Articles found in ARTICLES folder
-4. Begin Following along with scripts 
+- Consider reading the files in this order: "AI and Art Classification" -> "What are Tensor Images?" -> "Exploring ResNet50" 
+4. After completing the associated readings review the format of the data
+5. Once familiar with the structure of the data consult the scripts section to begin. 
+
+## FAQS
 
 ## Where to find the Data?
 The data for this assignment can be found in the DATA folder. The data is called MetMuseumData.
+
+## What is a high level overview of what I am doing?
+You will be creating a image classification model. This model will build of the existing ResNet50 model found within the installed libraries. This pre-built model will help abstract away a lot of the complexity associated with building a machine learning model. 
 
 ## What libraries will I need installed to complete this case study?
 Considering installing:
@@ -25,28 +32,8 @@ Considering installing:
     <td>clean + process + explore data</td>
   </tr>
    <tr>
-    <td>json</td>
-    <td>to read json data files</td>
-  </tr>
-   <tr>
     <td>matplotlib</td>
     <td>create plots</td>
-  </tr>
-   <tr>
-    <td>json</td>
-    <td>read from json files</td>
-  </tr>
-  <tr>
-    <td>requests</td>
-    <td>make API requests</td>
-  </tr>
-  <tr>
-    <td>PIL</td>
-    <td>load and process image data in python</td>
-  </tr>
-  <tr>
-    <td>io</td>
-    <td>load an image data given an image url</td>
   </tr>
   <tr>
     <td>torchvision</td>
@@ -59,10 +46,6 @@ Considering installing:
   <tr>
     <td>tqdm</td>
     <td>have a progress meter for iterable functions</td>
-  </tr>
-  <tr>
-    <td>time</td>
-    <td>temporal regulation of iterative function run times</td>
   </tr>
   <tr>
     <td>sklearn</td>
