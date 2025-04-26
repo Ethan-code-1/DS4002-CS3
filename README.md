@@ -1,7 +1,10 @@
 # DS4002-CS3
 
 ## Getting Started
-First consult the hook document. After reviewing the situation, see the rubric for full project details. 
+1. Consult the Hook Document
+2. Consult the Rubric to understand case study goals and submission requirements
+3. Review Articles found in ARTICLES folder
+4. Begin Following along with scripts 
 
 ## Where to find the Data?
 The data for this assignment can be found in the DATA folder. The data is called MetMuseumData.
