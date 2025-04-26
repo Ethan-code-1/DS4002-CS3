@@ -1,1 +1,0 @@
-[Beginner CNN Guide](https://medium.com/@habibeternal/binary-image-classification-using-resnet50-743166d67647)
